@@ -1,4 +1,7 @@
+import { TbSitemap } from "react-icons/tb"
 import Planing from "./layer/planing"
+import { FaRegComments, FaRegHeart } from "react-icons/fa"
+import { LuCoffee } from "react-icons/lu"
 
 const Awesome = () => {
   return (
@@ -10,12 +13,12 @@ const Awesome = () => {
                     <p className="text-[#777] leading-[1.9] font-normal text-[16.8px] max-w-[810px] mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat id sapien ac varius. Fusce hendrerit ligula a consectetur ullamcorper. Vestibulum varius pharetra lorem, in maximus libero placerat sed. In a lectus vel mauris tempor lobortis feugiat sed magna.</p>
                 </div> 
 
-                {/* <div className="flex items-center justify-between ">
-                    <Planing heading="Strategy" icon={<i class="fa-regular fa-comments style"></i>}/>
-                    <Planing heading="Plan Everything" icon={<i class="fa-solid fa-sitemap style"></i>}/>
-                    <Planing heading="Work Hard" icon={<i class="fa-solid fa-mug-hot style"></i>}/>
-                    <Planing heading="Deliver Quality" icon={<i class="fa-regular fa-heart style"></i>}/>
-                </div> */}
+                <div className="flex items-center justify-between ">
+                    <Planing heading="Plan Everything" icon={<FaRegComments className="style"/>}/>
+                    <Planing heading="Strategy" icon={<TbSitemap className="style"/>}/>
+                    <Planing heading="Work Hard" icon={<LuCoffee className="style"/>}/>
+                    <Planing heading="Deliver Quality" icon={<FaRegHeart className="style"/>}/>
+                </div>
             </div>
         </section>
     </>
