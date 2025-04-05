@@ -1,5 +1,5 @@
 import { TbSitemap } from "react-icons/tb"
-import Planing from "./layer/planing"
+import Planing from "./layer/Planing"
 import { FaRegComments, FaRegHeart } from "react-icons/fa"
 import { LuCoffee } from "react-icons/lu"
 
